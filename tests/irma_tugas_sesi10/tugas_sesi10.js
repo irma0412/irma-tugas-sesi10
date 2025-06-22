@@ -8,6 +8,7 @@ let driver;
 let options;
 
 describe('Pengujian Fitur SauceDemo', function () {
+    // Tambahan beforeEach untuk membuka browser tiap case
     beforeEach(async function () {
         console.log('BeforeEach membuka browser baru');
         options = new chrome.Options();   
@@ -16,6 +17,7 @@ describe('Pengujian Fitur SauceDemo', function () {
         driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
         await driver.manage().window().maximize();
     });
+    // Tambahan afterEach untuk menutup browser setiap selesai melakukan case
     afterEach(async function () {
         console.log('AfterEach menutup browser');
         await driver.quit();
