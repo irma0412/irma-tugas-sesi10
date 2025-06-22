@@ -1,5 +1,5 @@
 # irma-tugas-sesi10
-Repository ini berisi tugas sesi 10, melanjutkan tugas sesi 9, dengan fokus pada pengujian otomatisasi fitur pada website SauceDemo menggunakan Selenium WebDriver dan Mocha.
+Repository ini berisi tugas sesi 10, lanjutan dari tugas sesi 9, dengan fokus pada pengujian otomatisasi fitur SauceDemo menggunakan Selenium WebDriver dan Mocha. Pada sesi ini, tugas ditingkatkan dengan menambahkan hooks sebagai bagian dari perbaikan.
 
 # Pengujian mencakup:
 
